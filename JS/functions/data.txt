@@ -1,0 +1,6 @@
+John Lennon	guitar strings	500	2
+John Lennon	glasses	200	1
+Paul McCartney	hair gel	20	1
+Paul McCartney	razor	15	5
+Paul McCartney	shoes	1500	1
+George Harrison	songwriting credits	250	1

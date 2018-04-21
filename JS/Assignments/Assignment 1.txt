@@ -1,0 +1,71 @@
+Assignments
+
+Assignment Instructions:
+	First line: Problem statement
+	Second Line: arguments expected and return statment with datatype
+		eg: (argument:datatype) => (returnedValue:datatype)
+	Problem Index: index + difficulty level
+		eg: 1e, 2d, 3i etc.
+		e: easy
+		d: difficult
+		i: intermediate
+		NOTE: The difficulty levels are relative to the scope of this assignment.
+
+1e. Compute the sum of first n numbers.
+	(limit:number) => (sum:number)
+2i. Fibonacci series
+	(nthIndex:number) => (nthFibonacciNumber:number)
+3i. Remove duplicates from an array
+	(array) => (uniqueArray: array)
+4e. Reverse a string
+	(string) => (string)
+5i. Random number between 5 to 7(Bonus: generalize the function)
+	() => (random:number)
+6d. Array chunking(create chunks as sub arrays)
+	(array, chunkSize: number) => (array)
+7d. Find the character with maximum occurence in a string
+	(sentence: string) => (maxChar: string, count: number)
+8e. Validate Palindromes
+	(string) => (boolean)
+9i. Capitalize first letter of every word
+	(sentence: string) => (capitalizedSentence: string)
+10d. Validate if two words are anagrams of each other
+	(word1:string, word2:string) => (boolean)
+
+
+------------------------------------------------------------
+
+1. Write a function to greet a user
+	(userName: string) => (greeting: string)
+2. Write a function to divide two numbers. If the second number
+	is a zero then log an error message.
+	(num1, num2: integer) => (result: integer)
+3. Write a function that takes an alphabet and checks if it is a
+	vowel or not.
+	(alphabet: string) => (result: boolean)
+4. Write a function that takes an array and returns the max, min,
+	average, total.
+5. Write a function that returns the factorial of that number.
+	(number: integer) => (factorial: integer)
+
+
+
+
+
+
+
+
+1. Remove elements passed after arr from arr
+deleteElements([], 2, 3, 4, 5, 6)
+// ES5
+// indexOf, arguments array
+// ES6
+// includes
+
+2. All letters in second string should be in the first string
+mutation(['first', 'second'])
+['floor', 'for'] // true
+['hello', 'leh'] // true
+['hello', 'ley'] // false
+
+// every()
